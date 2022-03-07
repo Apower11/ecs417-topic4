@@ -1,0 +1,128 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 130vh;
+}
+
+form {
+  width: 60vw;
+  margin-top: 5vh;
+}
+
+legend {
+  width: 100%;
+  text-align: center;
+  background-color: blue;
+  color: white;
+  font-size: 1.3rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input {
+  display: block;
+}
+
+label {
+  display: block;
+}
+
+fieldset {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.t-shirt-section {
+  background-color: lightblue;
+  border-radius: 10px;
+  padding: 1vw;
+  border: 1px solid blue;
+}
+
+.t-shirt-section .radio-button-option label {
+  display: inline;
+}
+
+.t-shirt-section .radio-button-option input {
+  display: inline;
+}
+
+.contact-details-section {
+  background-color: lightblue;
+  margin-top: 1vh;
+  padding: 1vw;
+  border-radius: 10px;
+  border: 1px solid blue;
+}
+
+.contact-details-section .telephone-number input {
+  display: inline;
+}
+
+.contact-details-section .telephone-number p {
+  display: inline;
+}
+
+.address-section {
+  background-color: lightblue;
+  border: 1px solid blue;
+  margin-top: 1vh;
+  padding: 1vw;
+  border-radius: 10px;
+}
+
+.submit-section {
+  margin-top: 3vh;
+}
+
+.submit-section .checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.submit-section .checkbox label {
+  display: inline;
+}
+
+.submit-section .checkbox input {
+  display: inline;
+}
+
+.submit-section .buttons {
+  margin-top: 3vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.submit-section .buttons button:nth-of-type(2) {
+  margin-left: 2vw;
+}
+
+.submit-section .buttons button {
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  height: 5vh;
+  width: 80px;
+}
+/*# sourceMappingURL=topic_4_exercise_4.css.map */
